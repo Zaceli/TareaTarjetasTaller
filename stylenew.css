@@ -1,0 +1,71 @@
+body{
+    margin: 50;
+    min-height : 100vh;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.botones{
+    padding: 10px 50px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: left;
+    margin-top: 4px;
+    padding: 9px;
+    border-radius: 25px;
+    
+    font-family: 'Lexend Deca', sans-serif;
+    outline :none;
+    cursor: pointer;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 15px 50px 30px 0;
+    text-align: left;
+    font-size: 15px;
+    }
+
+p {
+font-family: 'Lexend Deca', sans-serif;
+color: hsla(0, 0%, 100%, 0.75);
+text-align: left;
+padding: 10% 0;
+margin: 5px;
+}
+.orange-button {
+    background-color: hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);
+    }
+.blue-button {
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+}
+.box {
+    overflow: hidden;
+    padding: 40px;
+    width: 150px;
+    height: 250px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+}
+
+.orange-box {
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.blue-box {
+    background-color:hsl(184, 100%, 22%);
+}
